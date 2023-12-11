@@ -1,4 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+
+<EnableWindowsTargeting>true</EnableWindowsTargeting>
+<UseMauiEssentials>true</UseMauiEssentials>
+<Project Sdk="Microsoft.NET.Sdk">
 
 <UseMauiEssentials>true</UseMauiEssentials>
   <PropertyGroup>
@@ -39,8 +42,8 @@
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    <EnableWindowsTargeting>true</EnableWindowsTargeting>
-
+      <EnableWindowsTargeting>true</EnableWindowsTargeting>
+<UseMauiEssentials>true</UseMauiEssentials>
     </EmbeddedResource>
   </ItemGroup>
 
